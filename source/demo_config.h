@@ -10,7 +10,7 @@
 
 #define EXAMPLE_NAME       "CIFAR-10"
 #define FRAMEWORK_NAME     "TensorFlow Lite Micro"
-#define DETECTION_TRESHOLD 60
+#define DETECTION_TRESHOLD 70
 #define NUM_RESULTS        1
 #define DEMO_VERBOSE       false
 #define EOL                "\r\n"

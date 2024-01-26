@@ -65,7 +65,8 @@ Here is the detail.
 
 ![](image/frdm_board_rework.png)
 
-Attach the LCD shield and the Camera shield to the FRDM board. as shown  below:
+Attach the LCD shield (J1: Pins 5-28 skip first 4 pins) to FRDM (J8). 
+Attach the Camera shield to the FRDM (J9: Pins 5-23; skip first 4 pins), as shown below:
 
 ![](image/frdm_board_connections.png)
 
@@ -98,7 +99,9 @@ Build the project, and after compile complete, flash the board.
 
 ## 4. Results <a name="step4"></a>
 
-Reset the board, and show a bird picture to the camera, the type of object is showing at the bottom of the LCD.
+Reset the board, the preview of camera is showing in the top of LCD (if the preview is blank it's because of the voltage mismatch between Camera module and FRDM board, please reset the board).
+
+Show a bird picture to the camera, the type of object is showing at the bottom of the LCD.
 
 ![](image/running_result.jpg)
 
