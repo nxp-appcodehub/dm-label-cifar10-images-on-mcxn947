@@ -101,7 +101,7 @@ Build the project, and after compile complete, flash the board.
 
 Reset the board, the preview of camera is showing in the top of LCD (if the preview is blank it's because of the voltage mismatch between Camera module and FRDM board, please reset the board).
 
-Show a bird picture to the camera, the type of object is showing at the bottom of the LCD.
+Show a bird picture (print the image on a paper or use you mobilephone display the test image) to the camera, the type of object is showing at the bottom of the LCD.
 
 ![](image/running_result.jpg)
 
