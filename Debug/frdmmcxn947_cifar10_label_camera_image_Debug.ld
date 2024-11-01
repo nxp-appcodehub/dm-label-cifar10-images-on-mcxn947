@@ -5,7 +5,7 @@
  * Generated linker script file for MCXN947
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v11.9.0_prc2 [Build 2107] [2023-11-24] on Jan 24, 2024, 4:22:46 PM
+ * MCUXpresso IDE v11.10.0 [Build 3148] [2024-07-03] on Nov 1, 2024, 12:14:47 PM
  */
 
 INCLUDE "frdmmcxn947_cifar10_label_camera_image_Debug_library.ld"

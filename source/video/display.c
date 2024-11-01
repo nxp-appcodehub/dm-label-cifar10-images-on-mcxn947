@@ -215,12 +215,11 @@ void display_show_slice(uint32_t g_stripe_index, uint32_t buffer, uint32_t max_i
 		if(g_detedted_flag){
 			char str_buf[96] = {0x0};
 			sprintf(str_buf,"Label: %s",labels[g_label_num]);
-			display_show_string( 32 + 0, 360, 280,32,32, (uint8_t *)"                             ");
 			display_show_string( 32 + 0, 360, 280,32,32, (uint8_t *)str_buf);
 		}
 		else
 		{
-			display_show_string( 32 + 0, 360, 280,32,32, (uint8_t *)"  Unrecognized               ");
+			display_show_string( 32 + 0, 360, 280,32,32, (uint8_t *)"                    ");
 		}
 
 	 }
